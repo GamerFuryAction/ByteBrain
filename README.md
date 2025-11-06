@@ -16,3 +16,11 @@ A from‑scratch Python AI starter you can train and deploy in minutes.
 pip install -r requirements.txt
 python src/train.py
 uvicorn app.main:app --reload
+
+## Chatbot Mode (Local LLM)
+ByteBrain now includes a tiny local conversational model using 🤗 Transformers.
+
+
+### Start the API
+```bash
+uvicorn app.main:app --reload --port 8000

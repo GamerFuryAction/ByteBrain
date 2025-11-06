@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+.env
+
+
+# data & models
+models/
+!models/.gitkeep
+*.csv
+
+
+# notebooks
+.ipynb_checkpoints/
+
+
+# OS
+.DS_Store
+Thumbs.db
